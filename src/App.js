@@ -1,11 +1,11 @@
 
 import './App.css';
-
+import Menu from './component/mainNav/Menu'
 function App() {
   return (
-    <div className="App">
-<h1>hi</h1>
-    </div>
+    <>
+      <Menu />
+    </>
   );
 }
 
