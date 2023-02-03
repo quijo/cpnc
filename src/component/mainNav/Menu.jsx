@@ -1,12 +1,13 @@
 import MainMenu from './Menu.style'
+import Button from '../button/Button'
 
 import React from 'react'
 
-const Menu = () => {
+const Menu = (props) => {
   return (
       <MainMenu>
         <div className='left'>
-            <div>cpnc</div>
+            <div>CPNC</div>
             <ul>
               <li>Home</li>
               <li>About</li>
@@ -14,7 +15,8 @@ const Menu = () => {
             </ul>
         </div>
         <div className='right'>
-           
+           <Button color="white" background="blue" text="Log In" margin="24px" />
+           {/* <Button color="blue" background="white" text="Sign Up"/> */}
         </div>
       </MainMenu>
   )

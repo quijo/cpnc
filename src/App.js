@@ -1,11 +1,17 @@
 
 import './App.css';
-import Menu from './component/mainNav/Menu'
+
+import Hero from './component/hero/Hero'
+
 function App() {
   return (
-    <>
-      <Menu />
-    </>
+   <>
+   <Hero />
+
+  
+   </>
+     
+    
   );
 }
 
