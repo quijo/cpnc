@@ -11,6 +11,7 @@ font-weight:100;
 padding:20px 90px 20px 90px;
 align-items:center;
 
+
 .left{
     display:flex ;
     justify-content:start;

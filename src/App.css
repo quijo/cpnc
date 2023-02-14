@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root {
+
+    /* Pribary */
+    --primary-light:#8ecae6;
+    --primary-medium:#219ebc;
+    --primary-dark:#023047;
+
+    /* secondary */
+    --secondary-light:#eae2b7;
+    --secondary-medium:#ffb703 ;
+    --secondary-dark:#fb8500;
+
+    /* Error */
+    --warning-light:#ff595e;
+    --warning-medium:#cc2e2e;
+    --warning-dark:#7a1515;
+
+    /* White */
+    --white:#E5E5E5;
+
+    /* Black */
+    --black:#0a0a0a;
+
+    /* disabled */
+    --disabled-light: #afadae;
+    --disabled-medium:#646262;
+    --disabled-dark:#272627;
+}
 *{
     margin: 0;
     padding:0; 

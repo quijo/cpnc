@@ -18,7 +18,7 @@ function handleClick(){
       <MainMenu>
         <div className='left' >
             <div>CPNC</div>
-            <CloseIcon className='closeIcon' onClick={handleClick}/>
+            {/* <CloseIcon className='closeIcon' onClick={handleClick}/> */}
             <ul className={!menu ? ' show': ''}>
               
               <li onClick={handleClick}>Home</li>
@@ -32,7 +32,7 @@ function handleClick(){
            {/* <Button color="blue" background="white" text="Sign Up"/> */}
         </div>
       </MainMenu>
-  )
+  )//
 }
 
 export default Menu

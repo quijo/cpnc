@@ -2,10 +2,11 @@ import styled from "styled-components"
 import Hero from '../../images/hero_bg.jpg'
 
 const Heros = styled.section`
-background:green ;
+
 height:100vh;
 background-image:url(${Hero});
 background-size:cover ;
+background-attachment:fixed ;
 position:relative;
 section{
     color:white;
