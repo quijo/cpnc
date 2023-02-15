@@ -40,9 +40,7 @@ const Courses = (props) => {
         a. In Pre – School Education/Administration A program designed to equip students with basic knowledge and skills for pre – school education/administration. A pre – school Laboratory is provided to expose students to the practical component of the program.
         b. In Christian Education Administration A program designed to equip students with the theory and practices of church – based CE Administration. Emphasis is given to the role and function of the CE Administrator in the local church"/>
 
-      <Card title="Associate in Pastoral Ministries/Associate in Religious Education " image={Assoaciate} description="AB Religious Education
-        a. In Pre – School Education/Administration A program designed to equip students with basic knowledge and skills for pre – school education/administration. A pre – school Laboratory is provided to expose students to the practical component of the program.
-        b. In Christian Education Administration A program designed to equip students with the theory and practices of church – based CE Administration. Emphasis is given to the role and function of the CE Administrator in the local church"/>
+      <Card title="Associate in Pastoral Ministries/Associate in Religious Education " image={Assoaciate} description="Associate in Pastoral Ministries/Associate in Religious Education Students with high school diplomas enrolled in this program are given the opportunity to meet the academic requirements for Ordination, or for further training in Christian Service"/>
 
       <Card title="Philippine Theological Education by Extension for Nazarenes (PhilTeen)" image={Philteen} description=" A program designed to train laymen for the ministry and to help pastors     
         complete the required courses for ordination."/>
