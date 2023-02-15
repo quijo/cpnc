@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const courses = styled.section`
 background-color:white ;
-padding:64px 8px 64px 8px;
+padding:64px 8px 0px 8px;
 display:flex ;
 gap:8px;
 justify-content:space-evenly;

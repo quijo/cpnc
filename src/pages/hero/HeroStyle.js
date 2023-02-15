@@ -38,9 +38,9 @@ section{
     padding:32px;
     background-color: rgba(0, 150, 255, 0.8);
     h1{
-        font-size:32px;
+        font-size:28px;
     }
-   
+    
 }
 
 
