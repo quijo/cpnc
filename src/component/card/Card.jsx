@@ -1,6 +1,6 @@
 import React from 'react'
 import CardContainer from './CardStyle'
-import Button from '../button/Button'
+import Button from '../button/button'
 
 
 
