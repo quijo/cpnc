@@ -31,8 +31,7 @@ section{
     width:95%;
     top:90px;
     left:0;
-    right:0 ;
-    
+    right:0;
     margin:0 auto ;
     border-radius:16px;
     padding:32px;
@@ -42,8 +41,7 @@ section{
     }
     
 }
-
-
+}
 
 `
 export default Heros

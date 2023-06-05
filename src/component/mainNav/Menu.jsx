@@ -1,5 +1,5 @@
 import MainMenu from './Menu.style'
-import Button from '../button/Button'
+import Button from '../button/button'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import React from 'react'

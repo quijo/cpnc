@@ -1,8 +1,7 @@
 import React from 'react'
 import Heros from './HeroStyle'
 import Menu from '../../component/mainNav/Menu'
-import Button from '../../component/button/Button'
-
+import Button from '../../component/button/button'
 const Hero = (props) => {
   return (
     <Heros>
