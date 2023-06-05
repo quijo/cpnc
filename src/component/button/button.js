@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './buttonStyle'
+import Button from './ButtonStyle'
 
 const button = (props) => {
 
