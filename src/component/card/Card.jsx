@@ -7,8 +7,6 @@ import Button from '../button/Button'
 
 
 const Card = (props) => {
-
-  console.log(props)
   return (
    <CardContainer>
     <img  src={props.image}alt="image" />

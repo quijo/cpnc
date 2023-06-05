@@ -1,21 +1,27 @@
 
 import './App.css';
+import Home from './component/root/Main'
 
-import Hero from './pages/hero/Hero'
-import About from './pages/about/About'
-import Courses from './pages/courses/Courses'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:< Home />
+  }
+])
+
+
 
 function App() {
   return (
    <>
-   <Hero />
-   <About />
-   <Courses />
- 
-
-   </>
      
-    
+      <RouterProvider router={router} />
+   </>
   );
 }
 

@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import React from 'react'
 import {useState} from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Menu = (props) => {
 
@@ -20,7 +21,7 @@ function handleClick(){
             <div>CPNC</div>
             {/* <CloseIcon className='closeIcon' onClick={handleClick}/> */}
             <ul className={!menu ? ' show': ''}>
-              
+              <NavLink to="/#contact">Home</NavLink>
               <li onClick={handleClick}>Home</li>
               <li onClick={handleClick}>About</li>
               <li onClick={handleClick}>Contact</li>
